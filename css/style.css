@@ -12,9 +12,33 @@ body{
     line-height: 1.5;
 }
 
-h1 h2 h3{
+h1, h2, h3, .logo{
     font-family: 'Anton', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1;
+}
+
+.site-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 32px;
+background: black;
+color: floralwhite;
+}
+
+.site-header a{
+    color: #F4F1EA;
+    text-decoration: none;
+}
+
+.logo{
+font-size: 28px;
+}
+
+nav ul{
+display: flex;
+gap: 32px;
+list-style: none;
 }
